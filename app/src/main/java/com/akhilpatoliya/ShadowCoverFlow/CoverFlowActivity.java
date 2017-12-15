@@ -33,8 +33,9 @@ public class CoverFlowActivity extends ActionBarActivity
 
         mData.add(new GameEntity(R.drawable.image_1, R.string.title1));
         mData.add(new GameEntity(R.drawable.image_2, R.string.title2));
+        mData.add(new GameEntity(R.drawable.download, R.string.title4));
         mData.add(new GameEntity(R.drawable.image_3, R.string.title3));
-        mData.add(new GameEntity(R.drawable.image_4, R.string.title4));
+
 
         mTitle = (TextSwitcher) findViewById(R.id.title);
         mTitle.setFactory(new ViewSwitcher.ViewFactory() {
